@@ -10,7 +10,7 @@ const dispatch=useDispatch()
         <div >
           <div>
             <form>
-              <input value={task} onChange={(event)=>(setTask(event.target.value))} placeholder="enter task"/>
+              <input class='todo-inputs' value={task} onChange={(event)=>(setTask(event.target.value))} placeholder="enter task"/>
               <button  type="submit"
               onClick={(event)=>{
                 event.preventDefault()

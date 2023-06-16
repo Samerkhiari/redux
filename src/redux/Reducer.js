@@ -24,7 +24,7 @@
           case TEXT_DECORATION :
             return {
               ...state,
-              Tasks: !state.textDecoration
+              Tasks: state.Tasks.map(el=> el.id == action.data ? {...el,isDone : !el.isDone} : el )
             };
     default:
        return state;

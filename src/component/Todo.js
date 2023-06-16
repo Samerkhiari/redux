@@ -6,9 +6,9 @@ function Todo({el}) {
 
   return (
     <div>
-      <p>{el.description}</p>
+      <p className={el.isDone && "decoration"}>{el.description}</p>
      <EditTodo el={el}/>
-
+     
     </div>
   )
 }

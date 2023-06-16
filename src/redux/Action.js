@@ -19,9 +19,9 @@ export const deleteTask = (deletedTodo) => {
   }
 }
 
-export const TextDecoration = (TextDecoration) => {
+export const TextDecoration = (id) => {
   return {
     type: TEXT_DECORATION,
-    data: TextDecoration
+    data: id
   };
 };

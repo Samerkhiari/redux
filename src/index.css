@@ -1,19 +1,36 @@
-
-body {
-  margin: 0;
-  font-family: 'Cabin Sketch', cursive;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  padding: 50px;
-  background-color: #e66610;
-  font-family: sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
-#container {
-  display: flex;
-  justify-content: center;
+body {
+  background: linear-gradient(120deg, rgb(226, 207, 129), rgb(232, 139, 97));
+  font-family: sans-serif;
+  min-height: 100vh;
+  color: #fff;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  width: 5rem;
+  color: rgb(238, 139, 97);
+  background: white;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+button:hover {
+  color: white;
+  background: rgb(238, 139, 97);
+}
+
+
+
+.decoration{
+  text-decoration: line-through;
+  color:green;
 }
